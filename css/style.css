@@ -1,0 +1,224 @@
+.column.logo {
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+body{ background: url("../img/mountains.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-left: 10px;
+
+}
+
+h2{
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.column{
+  text-align: center;
+}
+
+.cup{
+  text-align: right;
+}
+
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px; /* change this width to make a wider page!*/
+  padding: 0 1em; /* 1em of padding on the left and right side */
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 6em; /* 48px */
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.girl{float: right;
+  margin: 0 0 1em 1em;
+  width: 50%;
+  border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.classic{float: left;
+  margin: 0 0 1em 1em;
+  width: 50%;
+  border-width: 10px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.candy2{float: right;
+  margin: 0 0 1em 1em;
+  width: 50%;
+  border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.table2{
+  text-align: center;
+  margin: 0 0 1em 1em;
+  width: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: Black;
+  border-style: groove;
+  font-weight: bold;
+
+}
+
+.class{
+  text-align: left;
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+p{
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.row2{
+  text-align: center;
+
+}
+
+
+.dmd{
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.25em /* 36px */;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+
+
+}
+
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
